@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
-import { ResultsComponent } from "../components/resultsComponent";
+import { ResultsComponent } from "../components/ResultsComponent";
 import { SearchComponent } from "../components/SearchComponent";
 
 
