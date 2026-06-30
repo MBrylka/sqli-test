@@ -15,13 +15,14 @@ export default defineConfig<ProjectOptions>({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
+    screenshot: 'only-on-failure',
   },
 
   projects: [
     {
       name: 'sqli',
-      use: { 
+      use: {
         ...devices['Desktop Chrome'],
         baseURL: "https://petstore.swagger.io/v2/"
       },

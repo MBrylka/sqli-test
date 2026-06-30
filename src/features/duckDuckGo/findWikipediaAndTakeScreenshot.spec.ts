@@ -6,7 +6,7 @@ import { WikipediaActions } from "../wikipedia/actions/WikipediaActions";
 import { DuckDuckGoPage } from "./pages/DuckDuckGo";
 
 
-
+//run in headed
 test('Search Automation in duckDuckGo and take screenshot of wiki page',
     async ({page}) => {
         await test.step('Search automation in duckDuckGo and open Wikipedia link', async () => {
