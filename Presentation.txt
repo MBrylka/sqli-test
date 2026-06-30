@@ -1,0 +1,8 @@
+Exercixe 1:
+Google is bad for automation because of bot detection and captcha. I used duckduckGO
+checking year is a bad requirement? there is no field like table or something that displays "first automation: valkue"
+I assumed all 4 digit numbers are dates and verified earliest one.
+
+Excercise 2:
+Endpoint responses are always returning 200 for user creation, i just added most possible expects.
+PetStoreClient - this class is a little overkill but wanted to show how easly we can extend it, for example with more endpoint groups like store.

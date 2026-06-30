@@ -23,7 +23,7 @@ export default defineConfig<ProjectOptions>({
       name: 'sqli',
       use: { 
         ...devices['Desktop Chrome'],
-        baseURL: "https://petstore.swagger.io/v2"
+        baseURL: "https://petstore.swagger.io/v2/"
       },
     }
   ]
